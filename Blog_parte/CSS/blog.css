@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER 100% - 1422pxPX mas some o menu*/
+header {
+
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 119px;
+  background-color: white;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: slideFromTop 1s ease-out forwards;
+  border-radius: 90px;
+}
+
+main {
+  margin: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 40px;
+}
+
+.logo {
+  margin-right: 80px;
+  width: 100%;
+  height: 150px;
+
+  margin-top: -20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.para_menu {
+  background-color: white;
+  border-radius: 0px;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: rgb(7, 32, 70);
+  text-align: center;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(7, 32, 70);
+  font-weight: bold;
+}
+
+.texto-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: grey;
+  padding: 50px;
+}
+
+img {
+  padding: 30px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.text-blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 870px;
+}
+
+div>p {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  font-size: 20px;
+}
+
+/* WHATSAPP */
+.whatsappboton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  overflow: hidden;
+  animation: slideFromBottom 1s ease-out forwards;
+}
+
+.para_lista {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  font-size: 20px;
+  padding: 30px 10px 30px 50px;
+  width: 750px;
+  line-height: 37px;
+}
+
+.meu_carrousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 1000px;
+  padding: 5px;
+  margin-bottom: 80px;
+}
+
+.aga1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px rgb(150, 145, 145);
+}
+
+.semi_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px rgb(150, 145, 145);
+}
+
+.outro_aga2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
